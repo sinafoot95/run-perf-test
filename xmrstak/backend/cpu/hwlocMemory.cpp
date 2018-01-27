@@ -43,11 +43,11 @@ void bindMemoryToNUMANode( size_t puId )
 				HWLOC_MEMBIND_BIND,
 				HWLOC_MEMBIND_THREAD))
 			{
-				printer::inst()->print_msg(L0, "hwloc: can't bind memory");
+/*				printer::inst()->print_msg(L0, "hwloc: can't bind memory"); 	*/
 			}
 			else
 			{
-				printer::inst()->print_msg(L0, "hwloc: memory pinned");
+/*				printer::inst()->print_msg(L0, "hwloc: memory pinned");		*/
 				break;
 			}
 		}
